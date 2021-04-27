@@ -201,6 +201,11 @@ exclude:
   - /test
   - /vendor
 
+collections_dir: .
+collections:
+  posts:
+    output: true
+
 defaults:
   - scope:
       path: ""
