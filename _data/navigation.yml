@@ -1,6 +1,16 @@
 header:
   - titles:
       # @start locale config
+      en      : &EN       Home
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: https://armandkamffer.co.za
+
+  - titles:
+      # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
       en-US   : *EN
@@ -8,13 +18,3 @@ header:
       en-AU   : *EN
       # @end locale config
     url: /archive.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       Bio
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: https://armandkamffer.co.za
